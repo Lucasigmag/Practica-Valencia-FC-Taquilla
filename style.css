@@ -1,0 +1,33 @@
+h1#center{
+    text-align: center;
+    background-color: orange;
+    
+}
+span#naranja{
+    background-color: black;
+    color: lightblue;
+}
+
+div.block{
+    text-align: center;
+}
+
+p.config{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+span#col{
+    background-color: black;
+    color: greenyellow;
+}
+
+p.align{
+    text-align: center;
+}
+
+span.soli{
+    background-color: black;
+    color: darkgoldenrod;
+}

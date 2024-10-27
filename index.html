@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Luca Signoli Maggiotto">
+    <meta name="description" content="Web Taquilla">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquilla Valencia FC</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function solicitar() {
+            alert("Su entrada ha sido solicitda. En la proxima hora recibira un correo con los siguientes pasos a seguir.");
+            location.reload
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1 id="center"><span id="naranja">TAQUILLA</span></h1>
+    </header>
+    <main>
+        <p class="config"><span id="col">Aporte la información requerida para solicitar un ticket</span></p>
+        <br>
+        <div class="block">Nombre<input type="text"> Apellidos<input type="text"> Numero de teléfono<input type="text"> Correo electrónico<input type="text"></div>
+<br>
+<br>
+<p class="align"><button onclick="solicitar()"><span class="soli">SOLICITAR</span></button></p>    
+    </main>
+    <footer>
+        <a href="file:///D:/Práctica%20Pagina%20Inicial/index.html">PÁGINA INICIAL</a>
+    </footer>
+</body>
+</html>
